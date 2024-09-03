@@ -1,0 +1,143 @@
+header{
+    height: 80px;
+    background-color: rgb(87, 87, 87);
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav a{
+    color: white;
+    font-family: 'Teko';
+    font-weight: 600px;
+    font-size: 44px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.call{
+    margin-top: 15px;
+}
+
+nav a:hover{
+    color: #E30A18;
+}
+
+nav svg:hover{
+    color: #E30A18;
+}
+
+body{
+    background-color: #e7cfaeea;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#about img{
+    height: 500px;
+    border-radius: 50px;
+    border: 10px solid #9e040e;
+}
+
+#about h1{
+    font-family: 'Teko';
+    font-size: 100px;
+    margin: 0%;
+}
+
+#about p{
+    font-family: 'Josefin Sans';
+    font-size: 40px;
+    margin: 0%;
+    margin-bottom: 15px;
+}
+
+#about p span{
+    font-family: 'Josefin Sans';
+    font-size: 40px;
+    color: #9e040e;
+}
+
+#ex h2{
+    font-family: 'Josefin Sans';
+    font-size: 50px;
+    color: white;
+    margin: 0%;
+}
+
+.case{
+    margin-top: 40px;
+}
+
+.img_src img{
+    height: 300px;
+}
+
+.img_src{
+    display: flex;
+    justify-content: space-between;
+}
+
+.case h5{
+    font-family: 'Teko';
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0%;
+    color: #9e040e;
+}
+
+.img_src_p img{
+    height: 280px;
+}
+
+.img_src_p{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacts{
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    color: #9e040e;
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-left: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: gray;
+    margin: 0px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 40px;
+    background-image: url(https://sun9-64.userapi.com/impg/GcYjv8iUO8BE9_PfGsmRsBC2XXngTePs_vBdKw/etcfuZ2_Z2A.jpg?size=1280x1280&quality=95&sign=12056b04e554adf427e2a5a82c15354c&type=album);
+    background-repeat: repeat-x;
+    background-size: 100px;
+    opacity: 0.8;
+}
+
+footer p{
+    margin: 0px;
+    padding-top: 20px;
+    font-family: 'Teko';
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
